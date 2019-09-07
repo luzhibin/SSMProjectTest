@@ -1,0 +1,18 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-war" name="SSMProject1:war exploded">
+    <output-path>$PROJECT_DIR$/out/artifacts/SSMProject1_war_exploded</output-path>
+    <root id="root">
+      <element id="javaee-facet-resources" facet="SSMProject1/web/Web" />
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="classes">
+          <element id="module-output" name="SSMProject1" />
+        </element>
+        <element id="directory" name="lib">
+          <element id="library" level="project" name="com.springsource.org.aopalliance-1.0.0" />
+          <element id="library" level="project" name="ant-1.9.6" />
+          <element id="library" level="project" name="ant-1.9.6 (2)" />
+        </element>
+      </element>
+    </root>
+  </artifact>
+</component>
