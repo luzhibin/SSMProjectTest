@@ -15,7 +15,7 @@ public class CustomerServiceImpl implements CustomerService{
 
     @Override
     public void saveCustomer(Customer customer) {
-        System.out.println("service层，保存customer"+customer);
+        System.out.println("service层，保存customer:"+customer);
         //调用Dao层
         customerMapper.insertCustomer(customer);
     }

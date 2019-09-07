@@ -14,7 +14,7 @@
         http://www.springframework.org/schema/tx/spring-tx.xsd
 ">
     <!--注解扫描-->
-    <context:component-scan base-package="domain,web"/>
+    <context:component-scan base-package="domain,web,service,mapper"/>
 
     <!--Spring与MyBatis整合-->
     <!--加载数据库属性文件-->
